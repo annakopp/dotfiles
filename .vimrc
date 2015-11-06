@@ -19,6 +19,7 @@ Plug 'ervandew/supertab'
 "Git
 Plug 'tpope/vim-fugitive'
 
+Plug 'bronson/vim-trailing-whitespace'
 
 " Javascript
 Plug 'leafgarland/typescript-vim'
