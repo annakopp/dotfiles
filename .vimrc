@@ -50,4 +50,7 @@ au FocusLost * :wa
 map \           :NERDTreeToggle<CR>
 map \|          :NERDTreeFind<CR>
 inoremap jk <esc>
-noremap b#<Enter> <F1> 
+
+" Map f1 key to toggle previous window
+map <F1> :b#<Enter>
+imap <F1> <Esc>:b#<Enter>
