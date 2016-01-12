@@ -32,6 +32,9 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+highlight ColorColumn ctermbg=235 guibg=#02222a
+let &colorcolumn=join(range(79,999),",")
+
 set guifont=Menlo\ Regular:h14
 
 " Display extra whitespace
