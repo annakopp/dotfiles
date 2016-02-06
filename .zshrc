@@ -24,3 +24,4 @@ source ~/.zsh/functionsAndAliases.sh
 source ~/.zsh/environmentVariables.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+. /Users/annakopp/.nix-profile/etc/profile.d/nix.sh
