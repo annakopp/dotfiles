@@ -17,11 +17,12 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/annakopp/.local/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/functionsAndAliases.sh
 source ~/.zsh/environmentVariables.sh
 
+export EDITOR='vim'
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 . /Users/annakopp/.nix-profile/etc/profile.d/nix.sh
