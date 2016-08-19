@@ -25,6 +25,9 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'leafgarland/typescript-vim'
 Plug 'kchmck/vim-coffee-script'
 
+" HTML
+Plug 'Valloric/MatchTagAlways'
+
 call plug#end()
 
 " theme
