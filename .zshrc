@@ -1,10 +1,10 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/annakopp/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 ZSH_THEME="agnoster"
-DEFAULT_USER="annakopp"
+DEFAULT_USER="anna"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
